@@ -11,7 +11,7 @@ module.exports = {
     var combinedLocalConfig = {};
 
     // Get the ember-addon field from the host app's package.json
-    var emberAddonConfig = require('./package')['ember-addon'];
+    var emberAddonConfig = relative('./package')['ember-addon'];
 
     // Set the default config path
     var configPath = './config';
