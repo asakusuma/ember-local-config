@@ -1,6 +1,6 @@
-# Ember-local-config
+# ember-local-config
 
-This README outlines the details of collaborating on this Ember addon.
+Enables local config files for ember-cli apps that get merged into the main application configuration.
 
 ## Installation
 
@@ -8,7 +8,7 @@ This README outlines the details of collaborating on this Ember addon.
 * `npm install`
 * `bower install`
 
-## Running
+## Running the dummy app
 
 * `ember server`
 * Visit your app at http://localhost:4200.
