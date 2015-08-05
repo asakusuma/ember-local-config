@@ -22,8 +22,6 @@ module.exports = {
       merge(combinedLocalConfig, localConfig);
     });
 
-    console.log(combinedLocalConfig);
-
     return combinedLocalConfig;
   }
 };
