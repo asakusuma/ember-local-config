@@ -11,7 +11,7 @@ Enables local config files for ember-cli apps that get merged into the main appl
 ## API
 
 
-**ember-local-config** will pickup any file in your config directory that ends with `.local.js` and attempt to pull out a config object and merge it into the normal app config. You do not need to modify how you consome the regular config.
+**ember-local-config** will pickup any file in your config directory that ends with `.local.js`, attempt to pull out a config object and merge it into the normal app config. You do not need to modify how you consume the regular config.
 
 ### Local config generator
 
