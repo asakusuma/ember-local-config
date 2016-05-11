@@ -6,7 +6,7 @@ Enables local config files for ember-cli apps that get merged into the main appl
 
 1. Install the addon in your app by running `npm install ember-local-config --save-dev`.
 2. Generate a local config file by running `ember g local-config`
-3. After commiting the generated local config file as a default file, run [git update-index --skip-worktree](http://git-scm.com/docs/git-update-index) on the config file so that git doesn't pickup local changes to the file.
+3. After committing the generated local config file as a default file, run [git update-index --skip-worktree](http://git-scm.com/docs/git-update-index) on the config file so that git doesn't pickup local changes to the file.
 
 ## API
 
