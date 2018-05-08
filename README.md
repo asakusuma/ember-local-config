@@ -19,16 +19,18 @@ Running `ember g local-config` will create an empty config file called `config.l
 
 ## Running the dummy app
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `ember try:each` – Runs the test suite against multiple Ember versions
 
-## Running Tests
+### Running the dummy application
 
-* `ember test`
-* `ember test --server`
+* `ember serve`
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
-## Building
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
-* `ember build`
+License
+------------------------------------------------------------------------------
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+This project is licensed under the [MIT License](LICENSE.md).
