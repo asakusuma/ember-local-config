@@ -1,4 +1,4 @@
-# ember-local-config
+# ember-local-config [![npm version](https://badge.fury.io/js/ember-local-config.svg)](https://www.npmjs.com/package/ember-local-config) [![Build Status](https://travis-ci.org/asakusuma/ember-local-config.svg?branch=master)](https://travis-ci.org/asakusuma/ember-local-config)
 
 Enables local config files for ember-cli apps that get merged into the main application configuration.
 
