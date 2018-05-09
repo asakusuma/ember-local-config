@@ -1,6 +1,6 @@
 {
   "name": "ember-local-config",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Enables local config files for ember-cli apps",
   "keywords": [
     "ember-addon",
