@@ -11,7 +11,7 @@ function endsWith(base, suffix) {
 
 module.exports = {
   name: 'ember-local-config',
-  config: function(env, baseConfig) {
+  config: function(env) {
     var combinedLocalConfig = {};
 
     var configDirectory = path.dirname(this.project.configPath());
