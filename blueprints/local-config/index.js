@@ -6,9 +6,9 @@ module.exports = {
     entityName = entityName || 'config';
     return entityName;
   },
-  fileMapTokens: function(options) {
+  fileMapTokens: function() {
     return {
-      __config__: function(options) {
+      __config__: function() {
         return getConfigPath();
       }
     }
